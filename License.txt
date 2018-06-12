@@ -1,0 +1,3 @@
+This project is licensed for academic or other scholarly research which (a) is not undertaken for profit, (b) is not intended to produce works, services, or data for commercial use, and (c) is neither conducted, nor funded, by a person or an entity engaged in commercial enterprise in the field of mass spectrometry.
+
+For a commercial license, please contact Dr. Rob Smith at rob.smith@primelabs.ms 
