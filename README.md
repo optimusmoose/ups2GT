@@ -2,7 +2,7 @@ PLEASE READ THE LICENSE FILE FOR LICENSE INFORMATION.
 
 This is a ground truth dataset for mass spectrometry data analysis at the MS1 signal level comprised of isolated peptide signals from UPS2.
 
-The dataset consists of 1,294,008 points grouped into 57,518 extracted ion chromatograms, and those grouped into 14,111 isotopic envelopes.
+The dataset consists of 28,569,002 points, 1,268,587 of which are grouped into 57,144 extracted ion chromatograms, and those grouped into 14,078 isotopic envelopes.
 
 This data set can be used to evaluate many aspects of mass spectrometry data processing, including precursor mapping and signal extraction algorithms.
 
@@ -10,5 +10,12 @@ The original study is described in Tsou et al 2015 and is available in PRIDE rep
 
 The intact file is larger than the max file size on Github, so the file is split into 100MB chunks, with the index in the filename: v<version>.<index>.csv
 
+To re-assemble the files, simply navigate to the v1_0 folder and run the command: "ruby assemble2.rb". The assembled file will be created in that folder and be named v1_0.csv.
+
 The schema of the .csv is as follows:
 point_id,m/z,RT,intensity,XIC_id,isotopic_envelope_id
+
+An XIC_id of 0 or -1 indicates the point was assigned as noise.
+
+Please cite this paper if you use the data:
+https://pubs.acs.org/doi/abs/10.1021/acs.jproteome.8b00659
