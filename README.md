@@ -2,7 +2,7 @@ PLEASE READ THE LICENSE FILE FOR LICENSE INFORMATION.
 
 This is a ground truth dataset for mass spectrometry data analysis at the MS1 signal level comprised of isolated peptide signals from UPS2.
 
-The dataset consists of > 28m points, > 1.2m of which are grouped into extracted ion chromatograms, and those grouped into isotopic envelopes.
+The dataset consists of 28,568,991 points, 1,268,568 of which are grouped into 57,143 extracted ion chromatograms, and those grouped into 14,077 isotopic envelopes.
 
 This data set can be used to evaluate many aspects of mass spectrometry data processing, including precursor mapping and signal extraction algorithms.
 
